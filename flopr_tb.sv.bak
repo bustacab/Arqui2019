@@ -1,0 +1,4 @@
+module flopr_tb();
+	#(parameter N = 64)
+	logic clk, reset, [N-1:0] d, [N-1:0] q,
+	logic [N-1:0] q;

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at regfile.sv(16): always construct contains both blocking and non-blocking assignments File: /home/fjz0112/Escritorio/PipelinedProcessorPatterson/regfile.sv Line: 16

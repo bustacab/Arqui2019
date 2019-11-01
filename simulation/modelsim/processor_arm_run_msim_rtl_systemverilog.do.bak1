@@ -1,0 +1,35 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/writeback.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/sl2.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/signext.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/regfile.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/processor_arm.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/mux2.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/memory.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/maindec.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/imem.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/flopr.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/fetch.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/execute.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/decode.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/datapath.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/controller.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/aludec.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/alu.sv}
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/adder.sv}
+vcom -93 -work work {F:/PipelinedProcessorPatterson/dmem.vhd}
+
+vlog -sv -work work +incdir+F:/PipelinedProcessorPatterson {F:/PipelinedProcessorPatterson/processor_tb.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  processor_tb
+
+add wave *
+view structure
+view signals
+run -all
