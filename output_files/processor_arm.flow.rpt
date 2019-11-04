@@ -1,6 +1,6 @@
 Flow report for processor_arm
-Fri Nov  1 11:07:16 2019
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Mon Nov  4 01:51:01 2019
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
 ---------------------
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Nov  1 11:07:16 2019       ;
-; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Flow Status                        ; Successful - Mon Nov  4 01:51:01 2019       ;
+; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; processor_arm                               ;
 ; Top-level Entity Name              ; processor_arm                               ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 3,019                                       ;
-;     Total combinational functions  ; 1,524                                       ;
-;     Dedicated logic registers      ; 1,827                                       ;
-; Total registers                    ; 1827                                        ;
+; Total logic elements               ; 2,758                                       ;
+;     Total combinational functions  ; 1,408                                       ;
+;     Dedicated logic registers      ; 1,624                                       ;
+; Total registers                    ; 1624                                        ;
 ; Total pins                         ; 132                                         ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 5,120                                       ;
+; Total memory bits                  ; 2,048                                       ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/01/2019 11:06:47 ;
+; Start date & time ; 11/04/2019 01:50:42 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; processor_arm       ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 123633793756586.157261720705930        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 137194292928627.157284304202915        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; processor_tb   ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; processor_tb                           ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
@@ -102,18 +102,18 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:29     ; 1.0                     ; 1021 MB             ; 00:00:55                           ;
-; Total                ; 00:00:29     ; --                      ; --                  ; 00:00:55                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 1016 MB             ; 00:00:38                           ;
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:38                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+----------------------+------------------+----------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
-+----------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis ; lab28            ; Ubuntu 16.04.6 ; 16         ; x86_64         ;
-+----------------------+------------------+----------------+------------+----------------+
++-------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                           ;
++----------------------+---------------------+----------------+------------+----------------+
+; Module Name          ; Machine Hostname    ; OS Name        ; OS Version ; Processor type ;
++----------------------+---------------------+----------------+------------+----------------+
+; Analysis & Synthesis ; santiago-Smart-NC74 ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
++----------------------+---------------------+----------------+------------+----------------+
 
 
 ------------
