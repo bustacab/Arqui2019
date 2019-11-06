@@ -14,24 +14,21 @@ module regfile (input logic clk,
 	
 	// secuential unit: use <= as assign operator
 	always_ff @(posedge clk) begin
-	// not allow to write XZR register
-		if(wa3 !== 31)
-		// write if enable
+		if(wa3 !== 31) begin
 			if(we3 === 1) regFile[wa3] <= wd3;
-			
-	end
-
-	always_comb
-		begin
-			if(ra1 === wa3)
-				rd1 = wd3;
-			else
-				rd1 = regFile[ra1];
-			
-			if(ra2 === wa3)
-				rd2 = wd3;
-			else
-				rd2 = regFile[ra2];
 		end
+	end
+	
+	always_comb begin
+		if(ra1 === wa3 & we3 === 1)
+			rd1 = wd3;
+		else
+			rd1 = regFile[ra1];
+		
+		if(ra2 === wa3 & we3 === 1)
+			rd2 = wd3;
+		else
+			rd2 = regFile[ra2];
+	end
 	
 endmodule
