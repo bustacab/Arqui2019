@@ -11,187 +11,187 @@
 # 
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/writeback.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:34 on Nov 08,2019
+# Start time: 16:13:12 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/writeback.sv 
 # -- Compiling module writeback
 # 
 # Top level modules:
 # 	writeback
-# End time: 15:04:34 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:12 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/sl2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:34 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/sl2.sv 
 # -- Compiling module sl2
 # 
 # Top level modules:
 # 	sl2
-# End time: 15:04:34 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/signext.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:34 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/signext.sv 
 # -- Compiling module signext
 # 
 # Top level modules:
 # 	signext
-# End time: 15:04:34 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:34 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/regfile.sv 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 15:04:34 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_arm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_arm.sv 
 # -- Compiling module processor_arm
 # 
 # Top level modules:
 # 	processor_arm
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/mux2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/mux2.sv 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/memory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/memory.sv 
 # -- Compiling module memory
 # 
 # Top level modules:
 # 	memory
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/maindec.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/maindec.sv 
 # -- Compiling module maindec
 # 
 # Top level modules:
 # 	maindec
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/imem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/imem.sv 
 # -- Compiling module imem
 # 
 # Top level modules:
 # 	imem
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/flopr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/flopr.sv 
 # -- Compiling module flopr
 # 
 # Top level modules:
 # 	flopr
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/fetch.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/fetch.sv 
 # -- Compiling module fetch
 # 
 # Top level modules:
 # 	fetch
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/execute.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/execute.sv 
 # -- Compiling module execute
 # 
 # Top level modules:
 # 	execute
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/decode.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/decode.sv 
 # -- Compiling module decode
 # 
 # Top level modules:
 # 	decode
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/controller.sv 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/aludec.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/aludec.sv 
 # -- Compiling module aludec
 # 
 # Top level modules:
 # 	aludec
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/adder.sv 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:13 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:13 on Nov 08,2019
 # vcom -reportprogress 300 -93 -work work /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -202,23 +202,23 @@
 # -- Compiling entity dmem
 # -- Compiling architecture behave of dmem
 # ** Warning: /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd(30): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:14 on Nov 08,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 1
 # 
 # vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:14 on Nov 08,2019
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv 
 # -- Compiling module processor_tb
 # 
 # Top level modules:
 # 	processor_tb
-# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
+# End time: 16:13:14 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  processor_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" processor_tb 
-# Start time: 15:04:35 on Nov 08,2019
+# Start time: 16:13:14 on Nov 08,2019
 # Loading sv_std.std
 # Loading work.processor_tb
 # Loading work.processor_arm
@@ -248,13 +248,26 @@
 # Loading work.dmem(behave)
 # 
 # add wave *
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: unknown  Hostname: santiago-Smart-NC74  ProcessID: 6740
+#           Attempting to use alternate WLF file "./wlftaLClXA".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftaLClXA
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # ** Note: fin del testdump
-#    Time: 1320 ps  Iteration: 1  Instance: /processor_tb/dut/dataMem
+#    Time: 1520 ps  Iteration: 1  Instance: /processor_tb/dut/dataMem
 # ** Note: $stop    : /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv(26)
-#    Time: 1340 ps  Iteration: 0  Instance: /processor_tb
+#    Time: 1540 ps  Iteration: 0  Instance: /processor_tb
 # Break in Module processor_tb at /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv line 26
+# FATAL ERROR: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 16:18:14 on Nov 08,2019, Elapsed time: 0:05:00
+# Errors: 4, Warnings: 2

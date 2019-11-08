@@ -15,8 +15,9 @@ Desensamblado de la sección .text:
   14:	cb01014a 	sub	x10, x10, x1
   18:	f80003cb 	stur	x11, [x30]
   1c:	f80083cc 	stur	x12, [x30,#8]
-  20:	b5ffff8a 	cbnz	x10, 10 <loop>
-  24:	f80103c0 	stur	x0, [x30,#16]
+  20:	d503201f 	nop
+  24:	b5ffff6a 	cbnz	x10, 10 <loop>
+  28:	f80103c0 	stur	x0, [x30,#16]
 
-0000000000000028 <inf>:
-  28:	b400001e 	cbz	x30, 28 <inf>
+000000000000002c <inf>:
+  2c:	b400001e 	cbz	x30, 2c <inf>
