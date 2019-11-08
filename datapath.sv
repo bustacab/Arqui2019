@@ -9,7 +9,8 @@ module datapath #(parameter N = 64)
 					input logic memRead,
 					input logic memWrite,
 					input logic regWrite,	
-					input logic memtoReg,									
+					input logic memtoReg,			
+					input logic branchTipe,
 					input logic [31:0] IM_readData,
 					input logic [N-1:0] DM_readData,
 					output logic [N-1:0] IM_addr, DM_addr, DM_writeData,
@@ -20,9 +21,10 @@ module datapath #(parameter N = 64)
 	logic [N-1:0] signImm_D, readData1_D, readData2_D;
 	logic zero_E;
 	logic [95:0] qIF_ID;
-	logic [270:0] qID_EX;
-	logic [202:0] qEX_MEM;
+	logic [271:0] qID_EX;
+	logic [203:0] qEX_MEM;
 	logic [134:0] qMEM_WB;
+	logic branchTipe_s;
 	
 	fetch 	#(64) 	FETCH 	(.PCSrc_F(PCSrc),
 										.clk(clk),
@@ -48,9 +50,9 @@ module datapath #(parameter N = 64)
 										.wa3_D(qMEM_WB[4:0]));				
 																									
 									
-	flopr 	#(271)	ID_EX 	(.clk(clk),
+	flopr 	#(272)	ID_EX 	(.clk(clk),
 										.reset(reset), 
-										.d({AluSrc, AluControl, Branch, memRead, memWrite, regWrite, memtoReg,	
+										.d({branchTipe, AluSrc, AluControl, Branch, memRead, memWrite, regWrite, memtoReg,	
 											qIF_ID[95:32], signImm_D, readData1_D, readData2_D, qIF_ID[4:0]}),
 										.q(qID_EX));	
 	
@@ -67,14 +69,15 @@ module datapath #(parameter N = 64)
 										.zero_E(zero_E));											
 											
 									
-	flopr 	#(203)	EX_MEM 	(.clk(clk),
+	flopr 	#(204)	EX_MEM 	(.clk(clk),
 										.reset(reset), 
-										.d({qID_EX[265:261], PCBranch_E, zero_E, aluResult_E, writeData_E, qID_EX[4:0]}),
+										.d({qID_EX[271], qID_EX[265:261], PCBranch_E, zero_E, aluResult_E, writeData_E, qID_EX[4:0]}),
 										.q(qEX_MEM));	
 	
 										
 	memory				MEMORY	(.Branch_W(qEX_MEM[202]), 
-										.zero_W(qEX_MEM[133]), 
+										.zero_W(qEX_MEM[133]),
+										.TipoBranch(qEX_MEM[203]),
 										.PCSrc_W(PCSrc));
 			
 	

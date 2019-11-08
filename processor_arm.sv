@@ -8,7 +8,7 @@ module processor_arm #(parameter N = 64)
 							
 	logic [31:0] q;		
 	logic [3:0] AluControl;
-	logic reg2loc, regWrite, AluSrc, Branch, memtoReg, memRead, memWrite;
+	logic reg2loc, regWrite, AluSrc, Branch, memtoReg, memRead, memWrite, branchTipe;
 	logic [N-1:0] DM_readData, IM_address;  //DM_addr, DM_writeData
 	logic DM_readEnable; //DM_writeEnable
 	logic [10:0] instr;
@@ -21,7 +21,9 @@ module processor_arm #(parameter N = 64)
 									.Branch(Branch),
 									.memtoReg(memtoReg), 
 									.memRead(memRead), 
-									.memWrite(memWrite));
+									.memWrite(memWrite),
+									.branchTipe(branchTipe)
+									);
 														
 					
 	datapath #(64) dp 		(.reset(reset), 
@@ -40,7 +42,8 @@ module processor_arm #(parameter N = 64)
 									.DM_addr(DM_addr), 
 									.DM_writeData(DM_writeData), 
 									.DM_writeEnable(DM_writeEnable), 
-									.DM_readEnable(DM_readEnable));				
+									.DM_readEnable(DM_readEnable),
+									.branchTipe(branchTipe));				
 					
 					
 	imem 				instrMem (.addr(IM_address[7:2]),

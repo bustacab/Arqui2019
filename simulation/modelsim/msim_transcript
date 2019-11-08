@@ -6,193 +6,193 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap work rtl_work 
-# Copying /opt/intelFPGA_lite/18.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Copying /home/santiago/intelFPGA_lite/18.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/writeback.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/writeback.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:25 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/writeback.sv 
+# Start time: 15:04:34 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/writeback.sv 
 # -- Compiling module writeback
 # 
 # Top level modules:
 # 	writeback
-# End time: 11:07:25 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:34 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/sl2.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/sl2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:25 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/sl2.sv 
+# Start time: 15:04:34 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/sl2.sv 
 # -- Compiling module sl2
 # 
 # Top level modules:
 # 	sl2
-# End time: 11:07:25 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:34 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/signext.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/signext.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:25 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/signext.sv 
+# Start time: 15:04:34 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/signext.sv 
 # -- Compiling module signext
 # 
 # Top level modules:
 # 	signext
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:01
+# End time: 15:04:34 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/regfile.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/regfile.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/regfile.sv 
+# Start time: 15:04:34 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/regfile.sv 
 # -- Compiling module regfile
 # 
 # Top level modules:
 # 	regfile
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:34 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/processor_arm.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_arm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/processor_arm.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_arm.sv 
 # -- Compiling module processor_arm
 # 
 # Top level modules:
 # 	processor_arm
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/mux2.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/mux2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/mux2.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/mux2.sv 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/memory.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/memory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/memory.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/memory.sv 
 # -- Compiling module memory
 # 
 # Top level modules:
 # 	memory
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/maindec.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/maindec.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/maindec.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/maindec.sv 
 # -- Compiling module maindec
 # 
 # Top level modules:
 # 	maindec
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/imem.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/imem.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/imem.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/imem.sv 
 # -- Compiling module imem
 # 
 # Top level modules:
 # 	imem
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/flopr.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/flopr.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/flopr.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/flopr.sv 
 # -- Compiling module flopr
 # 
 # Top level modules:
 # 	flopr
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/fetch.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/fetch.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/fetch.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/fetch.sv 
 # -- Compiling module fetch
 # 
 # Top level modules:
 # 	fetch
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/execute.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/execute.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/execute.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/execute.sv 
 # -- Compiling module execute
 # 
 # Top level modules:
 # 	execute
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/decode.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/decode.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/decode.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/decode.sv 
 # -- Compiling module decode
 # 
 # Top level modules:
 # 	decode
-# End time: 11:07:26 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/datapath.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:26 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/datapath.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/datapath.sv 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 11:07:27 on Nov 01,2019, Elapsed time: 0:00:01
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/controller.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:27 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/controller.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/controller.sv 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 11:07:27 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/aludec.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/aludec.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:27 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/aludec.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/aludec.sv 
 # -- Compiling module aludec
 # 
 # Top level modules:
 # 	aludec
-# End time: 11:07:27 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/alu.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:27 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/alu.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/alu.sv 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 11:07:27 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/adder.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:27 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/adder.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/adder.sv 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 11:07:27 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/dmem.vhd}
+# vcom -93 -work work {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:27 on Nov 01,2019
-# vcom -reportprogress 300 -93 -work work /home/fjz0112/Escritorio/PipelinedProcessorPatterson/dmem.vhd 
+# Start time: 15:04:35 on Nov 08,2019
+# vcom -reportprogress 300 -93 -work work /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -201,24 +201,24 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity dmem
 # -- Compiling architecture behave of dmem
-# ** Warning: /home/fjz0112/Escritorio/PipelinedProcessorPatterson/dmem.vhd(30): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
-# End time: 11:07:27 on Nov 01,2019, Elapsed time: 0:00:00
+# ** Warning: /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd(30): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # 
-# vlog -sv -work work +incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson {/home/fjz0112/Escritorio/PipelinedProcessorPatterson/processor_tb.sv}
+# vlog -sv -work work +incdir+/home/santiago/Escritorio/Arquitectura\ del\ Computador/LAB1-2019/Arqui2019 {/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:07:27 on Nov 01,2019
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/fjz0112/Escritorio/PipelinedProcessorPatterson" /home/fjz0112/Escritorio/PipelinedProcessorPatterson/processor_tb.sv 
+# Start time: 15:04:35 on Nov 08,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019" /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv 
 # -- Compiling module processor_tb
 # 
 # Top level modules:
 # 	processor_tb
-# End time: 11:07:27 on Nov 01,2019, Elapsed time: 0:00:00
+# End time: 15:04:35 on Nov 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  processor_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" processor_tb 
-# Start time: 11:07:27 on Nov 01,2019
+# Start time: 15:04:35 on Nov 08,2019
 # Loading sv_std.std
 # Loading work.processor_tb
 # Loading work.processor_arm
@@ -254,7 +254,7 @@
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # ** Note: fin del testdump
-#    Time: 820 ps  Iteration: 1  Instance: /processor_tb/dut/dataMem
-# ** Note: $stop    : /home/fjz0112/Escritorio/PipelinedProcessorPatterson/processor_tb.sv(26)
-#    Time: 840 ps  Iteration: 0  Instance: /processor_tb
-# Break in Module processor_tb at /home/fjz0112/Escritorio/PipelinedProcessorPatterson/processor_tb.sv line 26
+#    Time: 1320 ps  Iteration: 1  Instance: /processor_tb/dut/dataMem
+# ** Note: $stop    : /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv(26)
+#    Time: 1340 ps  Iteration: 0  Instance: /processor_tb
+# Break in Module processor_tb at /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv line 26
