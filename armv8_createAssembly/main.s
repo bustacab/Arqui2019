@@ -6,7 +6,6 @@ loop:ADD X0, X0, X10
 SUB X10, X10, X1
 STUR X11, [X30, #0]
 STUR X12, [X30, #8]
-NOP
 CBNZ X10, loop
 STUR X0, [X30, #16]
 inf:CBZ X30, inf

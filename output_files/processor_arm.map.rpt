@@ -1,5 +1,5 @@
 Analysis & Synthesis report for processor_arm
-Fri Nov  8 16:12:59 2019
+Wed Nov 13 12:47:53 2019
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -77,15 +77,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Nov  8 16:12:59 2019       ;
+; Analysis & Synthesis Status        ; Successful - Wed Nov 13 12:47:53 2019       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; processor_arm                               ;
 ; Top-level Entity Name              ; processor_arm                               ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 4,589                                       ;
-;     Total combinational functions  ; 2,254                                       ;
-;     Dedicated logic registers      ; 2,665                                       ;
-; Total registers                    ; 2665                                        ;
+; Total logic elements               ; 4,585                                       ;
+;     Total combinational functions  ; 2,249                                       ;
+;     Dedicated logic registers      ; 2,661                                       ;
+; Total registers                    ; 2661                                        ;
 ; Total pins                         ; 132                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 2,048                                       ;
@@ -241,20 +241,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimated Total logic elements              ; 4,589          ;
+; Estimated Total logic elements              ; 4,585          ;
 ;                                             ;                ;
-; Total combinational functions               ; 2254           ;
+; Total combinational functions               ; 2249           ;
 ; Logic element usage by number of LUT inputs ;                ;
-;     -- 4 input functions                    ; 1576           ;
-;     -- 3 input functions                    ; 524            ;
-;     -- <=2 input functions                  ; 154            ;
+;     -- 4 input functions                    ; 1574           ;
+;     -- 3 input functions                    ; 520            ;
+;     -- <=2 input functions                  ; 155            ;
 ;                                             ;                ;
 ; Logic elements by mode                      ;                ;
-;     -- normal mode                          ; 2180           ;
+;     -- normal mode                          ; 2175           ;
 ;     -- arithmetic mode                      ; 74             ;
 ;                                             ;                ;
-; Total registers                             ; 2665           ;
-;     -- Dedicated logic registers            ; 2665           ;
+; Total registers                             ; 2661           ;
+;     -- Dedicated logic registers            ; 2661           ;
 ;     -- I/O registers                        ; 0              ;
 ;                                             ;                ;
 ; I/O pins                                    ; 132            ;
@@ -263,8 +263,8 @@ refer to the applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0              ;
 ;                                             ;                ;
 ; Maximum fan-out node                        ; CLOCK_50~input ;
-; Maximum fan-out                             ; 2729           ;
-; Total fan-out                               ; 17263          ;
+; Maximum fan-out                             ; 2725           ;
+; Total fan-out                               ; 17233          ;
 ; Average fan-out                             ; 3.29           ;
 +---------------------------------------------+----------------+
 
@@ -274,29 +274,29 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                ; Entity Name     ; Library Name ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |processor_arm                                  ; 2254 (1)            ; 2665 (0)                  ; 2048        ; 0            ; 0       ; 0         ; 132  ; 0            ; |processor_arm                                                                                                     ; processor_arm   ; work         ;
-;    |controller:c|                               ; 14 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|controller:c                                                                                        ; controller      ; work         ;
-;       |aludec:decAlu|                           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|controller:c|aludec:decAlu                                                                          ; aludec          ; work         ;
+; |processor_arm                                  ; 2249 (1)            ; 2661 (0)                  ; 2048        ; 0            ; 0       ; 0         ; 132  ; 0            ; |processor_arm                                                                                                     ; processor_arm   ; work         ;
+;    |controller:c|                               ; 18 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|controller:c                                                                                        ; controller      ; work         ;
+;       |aludec:decAlu|                           ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|controller:c|aludec:decAlu                                                                          ; aludec          ; work         ;
 ;       |maindec:decPpal|                         ; 13 (13)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|controller:c|maindec:decPpal                                                                        ; maindec         ; work         ;
-;    |datapath:dp|                                ; 2190 (0)            ; 2656 (0)                  ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp                                                                                         ; datapath        ; work         ;
-;       |decode:DECODE|                           ; 1575 (0)            ; 2251 (0)                  ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|decode:DECODE                                                                           ; decode          ; work         ;
+;    |datapath:dp|                                ; 2186 (0)            ; 2652 (0)                  ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp                                                                                         ; datapath        ; work         ;
+;       |decode:DECODE|                           ; 1572 (0)            ; 2251 (0)                  ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|decode:DECODE                                                                           ; decode          ; work         ;
 ;          |mux2:ra2mux|                          ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|decode:DECODE|mux2:ra2mux                                                               ; mux2            ; work         ;
 ;          |regfile:registers|                    ; 1545 (1545)         ; 2251 (2251)               ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|decode:DECODE|regfile:registers                                                         ; regfile         ; work         ;
 ;             |altsyncram:regFile_rtl_0|          ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|decode:DECODE|regfile:registers|altsyncram:regFile_rtl_0                                ; altsyncram      ; work         ;
 ;                |altsyncram_jmh1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|decode:DECODE|regfile:registers|altsyncram:regFile_rtl_0|altsyncram_jmh1:auto_generated ; altsyncram_jmh1 ; work         ;
-;          |signext:ext|                          ; 25 (25)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|decode:DECODE|signext:ext                                                               ; signext         ; work         ;
-;       |execute:EXECUTE|                         ; 474 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|execute:EXECUTE                                                                         ; execute         ; work         ;
-;          |alu:execAlu|                          ; 410 (410)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|execute:EXECUTE|alu:execAlu                                                             ; alu             ; work         ;
+;          |signext:ext|                          ; 22 (22)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|decode:DECODE|signext:ext                                                               ; signext         ; work         ;
+;       |execute:EXECUTE|                         ; 473 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|execute:EXECUTE                                                                         ; execute         ; work         ;
+;          |alu:execAlu|                          ; 409 (409)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|execute:EXECUTE|alu:execAlu                                                             ; alu             ; work         ;
 ;          |mux2:execMux|                         ; 64 (64)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|execute:EXECUTE|mux2:execMux                                                            ; mux2            ; work         ;
 ;       |fetch:FETCH|                             ; 6 (0)               ; 6 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|fetch:FETCH                                                                             ; fetch           ; work         ;
 ;          |flopr:fetchFlopr|                     ; 6 (6)               ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|fetch:FETCH|flopr:fetchFlopr                                                            ; flopr           ; work         ;
 ;       |flopr:EX_MEM|                            ; 6 (6)               ; 144 (144)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|flopr:EX_MEM                                                                            ; flopr           ; work         ;
-;       |flopr:ID_EX|                             ; 128 (128)           ; 163 (163)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|flopr:ID_EX                                                                             ; flopr           ; work         ;
-;       |flopr:IF_ID|                             ; 0 (0)               ; 22 (22)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|flopr:IF_ID                                                                             ; flopr           ; work         ;
+;       |flopr:ID_EX|                             ; 128 (128)           ; 162 (162)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|flopr:ID_EX                                                                             ; flopr           ; work         ;
+;       |flopr:IF_ID|                             ; 0 (0)               ; 19 (19)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|flopr:IF_ID                                                                             ; flopr           ; work         ;
 ;       |flopr:MEM_WB|                            ; 0 (0)               ; 70 (70)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|flopr:MEM_WB                                                                            ; flopr           ; work         ;
 ;       |memory:MEMORY|                           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|datapath:dp|memory:MEMORY                                                                           ; memory          ; work         ;
 ;    |flopr:IF_ID_TOP|                            ; 0 (0)               ; 9 (9)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|flopr:IF_ID_TOP                                                                                     ; flopr           ; work         ;
-;    |imem:instrMem|                              ; 49 (49)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|imem:instrMem                                                                                       ; imem            ; work         ;
+;    |imem:instrMem|                              ; 44 (44)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor_arm|imem:instrMem                                                                                       ; imem            ; work         ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -341,9 +341,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; datapath:dp|flopr:EX_MEM|q[134]                                     ; Stuck at GND due to stuck port data_in                    ;
 ; datapath:dp|fetch:FETCH|flopr:fetchFlopr|q[0]                       ; Stuck at GND due to stuck port data_in                    ;
 ; datapath:dp|flopr:IF_ID|q[18]                                       ; Merged with datapath:dp|flopr:IF_ID|q[20]                 ;
+; datapath:dp|flopr:IF_ID|q[6]                                        ; Merged with flopr:IF_ID_TOP|q[9]                          ;
 ; datapath:dp|flopr:IF_ID|q[14]                                       ; Merged with flopr:IF_ID_TOP|q[2]                          ;
 ; flopr:IF_ID_TOP|q[0,1]                                              ; Merged with flopr:IF_ID_TOP|q[2]                          ;
-; datapath:dp|flopr:IF_ID|q[10,11]                                    ; Merged with datapath:dp|flopr:IF_ID|q[12]                 ;
+; datapath:dp|flopr:IF_ID|q[17]                                       ; Merged with datapath:dp|flopr:IF_ID|q[19]                 ;
+; datapath:dp|flopr:IF_ID|q[10..12]                                   ; Merged with datapath:dp|flopr:IF_ID|q[13]                 ;
 ; datapath:dp|flopr:ID_EX|q[264]                                      ; Stuck at GND due to stuck port data_in                    ;
 ; datapath:dp|flopr:EX_MEM|q[201]                                     ; Stuck at GND due to stuck port data_in                    ;
 ; dmem:dataMem|Mux63~1                                                ; Lost fanout                                               ;
@@ -476,12 +478,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; dmem:dataMem|Mux63~0                                                ; Lost fanout                                               ;
 ; dmem:dataMem|mem_rtl_0_bypass[0..12,14]                             ; Lost fanout                                               ;
 ; datapath:dp|flopr:MEM_WB|q[5..68,133]                               ; Stuck at GND due to stuck port data_in                    ;
+; datapath:dp|flopr:ID_EX|q[147]                                      ; Merged with datapath:dp|flopr:ID_EX|q[145]                ;
 ; datapath:dp|flopr:ID_EX|q[150,151]                                  ; Merged with datapath:dp|flopr:ID_EX|q[149]                ;
 ; datapath:dp|flopr:ID_EX|q[205..260]                                 ; Lost fanout                                               ;
 ; datapath:dp|flopr:IF_ID|q[40..95]                                   ; Lost fanout                                               ;
 ; datapath:dp|fetch:FETCH|flopr:fetchFlopr|q[8..63]                   ; Lost fanout                                               ;
 ; datapath:dp|flopr:ID_EX|q[148]                                      ; Merged with datapath:dp|flopr:ID_EX|q[146]                ;
-; Total Number of Removed Registers = 455                             ;                                                           ;
+; Total Number of Removed Registers = 459                             ;                                                           ;
 +---------------------------------------------------------------------+-----------------------------------------------------------+
 
 
@@ -655,10 +658,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 2665  ;
+; Total registers                              ; 2661  ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 134   ;
-; Number of registers using Asynchronous Clear ; 419   ;
+; Number of registers using Asynchronous Clear ; 415   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 2112  ;
 ; Number of registers using Preset             ; 0     ;
@@ -978,7 +981,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------+
 ; 4:1                ; 64 bits   ; 128 LEs       ; 128 LEs              ; 0 LEs                  ; Yes        ; |processor_arm|datapath:dp|flopr:MEM_WB|q[42]               ;
 ; 4:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; Yes        ; |processor_arm|datapath:dp|flopr:ID_EX|q[136]               ;
-; 8:1                ; 64 bits   ; 320 LEs       ; 256 LEs              ; 64 LEs                 ; No         ; |processor_arm|datapath:dp|execute:EXECUTE|alu:execAlu|Mux2 ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |processor_arm|datapath:dp|flopr:ID_EX|q[266]               ;
+; 8:1                ; 64 bits   ; 320 LEs       ; 256 LEs              ; 64 LEs                 ; No         ; |processor_arm|datapath:dp|execute:EXECUTE|alu:execAlu|Mux1 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------+
 
 
@@ -1390,25 +1394,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 132                         ;
-; cycloneiii_ff         ; 2665                        ;
-;     CLR               ; 285                         ;
+; cycloneiii_ff         ; 2661                        ;
+;     CLR               ; 281                         ;
 ;     CLR SLD           ; 134                         ;
 ;     ENA               ; 2112                        ;
 ;     plain             ; 134                         ;
-; cycloneiii_lcell_comb ; 2254                        ;
+; cycloneiii_lcell_comb ; 2249                        ;
 ;     arith             ; 74                          ;
 ;         2 data inputs ; 6                           ;
 ;         3 data inputs ; 68                          ;
-;     normal            ; 2180                        ;
+;     normal            ; 2175                        ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 76                          ;
-;         2 data inputs ; 71                          ;
-;         3 data inputs ; 456                         ;
-;         4 data inputs ; 1576                        ;
+;         2 data inputs ; 72                          ;
+;         3 data inputs ; 452                         ;
+;         4 data inputs ; 1574                        ;
 ; cycloneiii_ram_block  ; 64                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 14.10                       ;
-; Average LUT depth     ; 5.38                        ;
+; Max LUT depth         ; 14.90                       ;
+; Average LUT depth     ; 5.44                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1427,7 +1431,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Fri Nov  8 16:12:34 2019
+    Info: Processing started: Wed Nov 13 12:47:29 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processor_arm -c processor_arm
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -1658,15 +1662,15 @@ Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "dump" File: /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_arm.sv Line: 7
-Info (21057): Implemented 4856 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 4854 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 129 output pins
-    Info (21061): Implemented 4660 logic cells
+    Info (21061): Implemented 4658 logic cells
     Info (21064): Implemented 64 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 76 warnings
-    Info: Peak virtual memory: 1023 megabytes
-    Info: Processing ended: Fri Nov  8 16:12:59 2019
-    Info: Elapsed time: 00:00:25
-    Info: Total CPU time (on all processors): 00:00:40
+    Info: Peak virtual memory: 1020 megabytes
+    Info: Processing ended: Wed Nov 13 12:47:53 2019
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:42
 
 

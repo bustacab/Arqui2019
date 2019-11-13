@@ -10,7 +10,7 @@ cModel Technology
 Z0 d/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1573240393
+Z2 !s110 1573660092
 !i10b 1
 !s100 T?0]4:z0ABMCRj2[afU3D3
 IofeJUznBlQ;hYn0=2NU1@1
@@ -26,7 +26,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1573240393.000000
+Z6 !s108 1573660092.000000
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/adder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/adder.sv|
 !i113 1
@@ -62,13 +62,13 @@ valudec
 R1
 R2
 !i10b 1
-!s100 o=QG8[3jJ5^IVEiB>oD630
-ITbi8e0:db1GVYW>_On6I]2
+!s100 >[R<_cOK=9f:18U]j]AGZ2
+IWODYc2]gmkZQOd[bA_25E3
 R3
 !s105 aludec_sv_unit
 S1
 R0
-w1573227443
+w1573659934
 8/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/aludec.sv
 F/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/aludec.sv
 L0 3
@@ -174,14 +174,14 @@ V=VcFJ1ISz_H?1@fo;QFYO1
 !s100 9UhgcemjCI:F<bA>GRZY=0
 Z17 OV;C;10.5b;63
 31
-Z18 !s110 1573240394
+R2
 !i10b 1
 R6
-Z19 !s90 -reportprogress|300|-93|-work|work|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd|
-Z20 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd|
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd|
+Z19 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/dmem.vhd|
 !i113 1
-Z21 o-93 -work work
-Z22 tExplicit 1 CvgOpt 0
+Z20 o-93 -work work
+Z21 tExplicit 1 CvgOpt 0
 Abehave
 R10
 R11
@@ -195,14 +195,14 @@ V8[PMY_3n7==fA43kKDYfO0
 !s100 1lH8Q5UCOcLSTe=e:O6:^1
 R17
 31
-R18
+Z22 !s110 1573660093
 !i10b 1
 R6
+R18
 R19
-R20
 !i113 1
+R20
 R21
-R22
 vexecute
 R1
 R2
@@ -282,13 +282,13 @@ vimem
 R1
 R2
 !i10b 1
-!s100 b=8DTjno>Y7J07H8HJEUY2
-Ia9>h5chXhoZ10lfYZjClm0
+!s100 SQE8X?ojKMJj[ECZS]iQK0
+IMTil1?[hOTV5P;NP0H5?41
 R3
 !s105 imem_sv_unit
 S1
 R0
-w1573240351
+w1573660044
 8/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/imem.sv
 F/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/imem.sv
 L0 1
@@ -296,7 +296,7 @@ R5
 r1
 !s85 0
 31
-R6
+Z23 !s108 1573660091.000000
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/imem.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/imem.sv|
 !i113 1
@@ -305,7 +305,7 @@ R8
 R9
 vmaindec
 R1
-R2
+Z24 !s110 1573660091
 !i10b 1
 !s100 ZNKbMl`6L7SW^TTU4dbn;2
 If;MG=O30G6QFH:Vd9aW700
@@ -321,7 +321,7 @@ R5
 r1
 !s85 0
 31
-R6
+R23
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/maindec.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/maindec.sv|
 !i113 1
@@ -330,7 +330,7 @@ R8
 R9
 vmemory
 R1
-R2
+R24
 !i10b 1
 !s100 APnVTz5_aBI1MZWMT5jI53
 I0DhYTJi^J0<>=Z^nFcCW@2
@@ -346,7 +346,7 @@ R5
 r1
 !s85 0
 31
-R6
+R23
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/memory.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/memory.sv|
 !i113 1
@@ -355,7 +355,7 @@ R8
 R9
 vmux2
 R1
-R2
+R24
 !i10b 1
 !s100 ZcFDEPCUJJ5S4b`8L47QX0
 I7R<WXI26fFJjgmP7j;RMO0
@@ -371,7 +371,7 @@ R5
 r1
 !s85 0
 31
-R6
+R23
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/mux2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/mux2.sv|
 !i113 1
@@ -380,7 +380,7 @@ R8
 R9
 vprocessor_arm
 R1
-R2
+R24
 !i10b 1
 !s100 hdFURSI^I20R3cJAo=liQ3
 ISJcNNLL[19`7ZIo^o@KQP0
@@ -396,7 +396,7 @@ R5
 r1
 !s85 0
 31
-R6
+R23
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_arm.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_arm.sv|
 !i113 1
@@ -405,15 +405,15 @@ R8
 R9
 vprocessor_tb
 R1
-R18
+R22
 !i10b 1
-!s100 o3jkd@Mn`TZiiaR1oP1I]3
-IBTSDO9:k_`6LVHUhkIh_b3
+!s100 1h;UCYSj^?F97z[cOg9Fe1
+I_[a8nl`WL0a4KNfO_R3`Z2
 R3
 !s105 processor_tb_sv_unit
 S1
 R0
-w1573239731
+w1573656574
 8/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv
 F/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv
 L0 4
@@ -421,7 +421,7 @@ R5
 r1
 !s85 0
 31
-!s108 1573240394.000000
+!s108 1573660093.000000
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/processor_tb.sv|
 !i113 1
@@ -430,7 +430,7 @@ R8
 R9
 vregfile
 R1
-R2
+R24
 !i10b 1
 !s100 CL<hlQ6I>5DbZlj9>8?Si3
 IDYHI2G^HQFlLigj:l`jLW1
@@ -446,7 +446,7 @@ R5
 r1
 !s85 0
 31
-R6
+R23
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/regfile.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/regfile.sv|
 !i113 1
@@ -455,7 +455,7 @@ R8
 R9
 vsignext
 R1
-R2
+R24
 !i10b 1
 !s100 X;O>KohNPn_7F87m_OHXB2
 IQfOjH<m095BoQH3XSUD4c0
@@ -471,7 +471,7 @@ R5
 r1
 !s85 0
 31
-R6
+R23
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/signext.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/signext.sv|
 !i113 1
@@ -480,7 +480,7 @@ R8
 R9
 vsl2
 R1
-R2
+R24
 !i10b 1
 !s100 9AU:S@n[d[@zKd>mejdUe2
 I[oL5HddSMLA`S;_KUIlOJ2
@@ -496,7 +496,7 @@ R5
 r1
 !s85 0
 31
-R6
+R23
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/sl2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/sl2.sv|
 !i113 1
@@ -505,7 +505,7 @@ R8
 R9
 vwriteback
 R1
-!s110 1573240392
+R24
 !i10b 1
 !s100 hk5;3<F?WSmSJ]D;T7OMW3
 IIFHPYBQ`<hj:MWbDLXck=2
@@ -521,7 +521,7 @@ R5
 r1
 !s85 0
 31
-!s108 1573240392.000000
+R23
 !s107 /home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/writeback.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019|/home/santiago/Escritorio/Arquitectura del Computador/LAB1-2019/Arqui2019/writeback.sv|
 !i113 1
